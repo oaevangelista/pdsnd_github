@@ -5,7 +5,11 @@ January 3, 2019
 Explore US Bikeshare Data
 
 ### Description
-Use of Python to explore data related to bikeshare systems for three major cities in the United States - Chicago, New York City and Washington. Code is used to import the data and answer interesting questions about it by computing descroptive statistics. Also, script is used that takes in raw input to create an interactive experience in the terminal to present these statistics
+Use of Python to explore data related to bikeshare systems for three major
+cities in the United States - Chicago, New York City and Washington. Code is
+used to import the data and answer interesting questions about it by computing
+descroptive statistics. Also, script is used that takes in raw input to create
+an interactive experience in the terminal to present these statistics
 Project for Udacity Programming for Data SCience Nanodegree Program
 
 ### Files used
