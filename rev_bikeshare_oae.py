@@ -90,7 +90,7 @@ def load_data(city, month, day):
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
-    print('-'*50)
+    print('-'*60)
     print('\nCalculating The Most Frequent Times of Travel...')
     start_time = time.time()
 
@@ -115,7 +115,7 @@ def time_stats(df):
     print("\nThe most popular hour to start travelling is ", popular_hour)
 
     print("\nThis took %s seconds." %(time.time() - start_time))
-    print('-'*50)
+    print('-'*60)
 
 
 def station_stats(df):
@@ -133,7 +133,7 @@ def station_stats(df):
     print("\nThe most popular end station is ", popular_end)
 
     print("\nThis took %s seconds." %(time.time() - start_time))
-    print('-'*50)
+    print('-'*60)
 
 
 def trip_duration_stats(df):
@@ -151,7 +151,7 @@ def trip_duration_stats(df):
     print("\nThe average time spent on each trip is ", trip_ave)
 
     print("\nThis took %s seconds." %(time.time() - start_time))
-    print('-'*50)
+    print('-'*60)
 
 
 def user_stats(df):
@@ -167,7 +167,7 @@ def user_stats(df):
     print(user_types)
 
     print("\nThis took %s seconds." %(time.time() - start_time))
-    print('-'*50)
+    print('-'*60)
 
 
 def raw_data(df):
@@ -184,8 +184,10 @@ def raw_data(df):
             print(df.iloc[line_number : line_number + 5])
             line_number += 5
             keep_printing = input("\nDo you want to see more raw data? "
-                                  "Enter yes or no? ").strip().lower()
-            if keep_printing == 'no':
+                                  "Enter yes or no?\n ").strip().lower()
+            if keep_printing not in ('yes', 'no'):
+                print(keep_printing.title() + " not one of the responses")
+            elif keep_printing == 'no':
                 break
 
 
