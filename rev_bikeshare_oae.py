@@ -185,7 +185,9 @@ def raw_data(df):
             line_number += 5
             keep_printing = input("\nDo you want to see more raw data? "
                                   "Enter yes or no? ").strip().lower()
-            if keep_printing == 'no':
+            if keep_printing not in ('yes', 'no'):
+                print(keep_printing.title() + " not one of the responses")
+            elif keep_printing == 'no':
                 break
 
 
