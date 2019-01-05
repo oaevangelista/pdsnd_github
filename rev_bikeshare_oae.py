@@ -184,7 +184,7 @@ def raw_data(df):
             print(df.iloc[line_number : line_number + 5])
             line_number += 5
             keep_printing = input("\nDo you want to see more raw data? "
-                                  "Enter yes or no? ").strip().lower()
+                                  "Enter yes or no?\n ").strip().lower()
             if keep_printing not in ('yes', 'no'):
                 print(keep_printing.title() + " not one of the responses")
             elif keep_printing == 'no':
