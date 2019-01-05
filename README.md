@@ -1,5 +1,5 @@
 ### Date created
-January 3, 2019
+January 1, 2019
 
 ### Project Title
 Explore US Bikeshare Data
@@ -8,9 +8,9 @@ Explore US Bikeshare Data
 Use of Python to explore data related to bikeshare systems for three major
 cities in the United States - Chicago, New York City and Washington. Code is
 used to import the data and answer interesting questions about it by computing
-descroptive statistics. Also, script is used that takes in raw input to create
+descriptive statistics. Also, script is used that takes in raw input to create
 an interactive experience in the terminal to present these statistics
-Project for Udacity Programming for Data SCience Nanodegree Program
+Project for Udacity Programming for Data Science Nanodegree Program
 
 ### Files used
 chicago.csv

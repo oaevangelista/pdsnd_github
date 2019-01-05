@@ -171,7 +171,7 @@ def user_stats(df):
 
 
 def raw_data(df):
-    """ Displays 5 rows of raw data at a time """
+    """ Displays 5 rows of raw data and asks the user to show 5 more rows """
     line_number = 0
     prompt = "\n Do you want to see the raw data? Enter yes or no. \n "
     raw_input = input(prompt).strip().lower()
